@@ -2,6 +2,8 @@
 
 > No dependencies. Super performant. A micro lib for attaching elements to mouse movement.
 
+![http://storage.j0.hn/hand.gif](http://storage.j0.hn/hand.gif)
+
 __Install:__
 
 ```
