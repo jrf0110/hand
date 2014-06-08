@@ -53,3 +53,8 @@ Drops an element
 __Parameters:__
 
 * element - The element to drop
+
+## Browser support
+
+1. If your browser doesn't support CSS transforms/translate3d, then this will not work at all.
+2. If your browser doesn't support [CSS ClassList](http://caniuse.com/classlist), then install [this polyfill](https://github.com/eligrey/classList.js)
