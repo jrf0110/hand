@@ -98,6 +98,6 @@
   };
   
   if ( typeof module !== "undefined" ) module.exports = hand;
-  else if ( typeof define !== "undefined" ) define( 'hand', function(){ return hand } );
+  else if ( typeof define !== "undefined" ) define( 'hand', function(){ return hand; } );
   else window.hand = hand;
 })();

@@ -13,14 +13,6 @@ module.exports = function( grunt ){
         options: {
           spawn: false,
         }
-      },
-
-      grouper: {
-        files: [],
-        tasks: ['requireGrouper'],
-        options: {
-          spawn: false,
-        }
       }
     }
 
@@ -45,5 +37,5 @@ module.exports = function( grunt ){
 
   grunt.initConfig( config );
 
-  grunt.registerTask('default', [ 'jshint' ]);
+  grunt.registerTask('default', [ 'jshint', 'watch' ]);
 };
