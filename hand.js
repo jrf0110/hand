@@ -65,7 +65,6 @@
   , drop: function( el ){
       for ( var i in hand.els ){
         if ( hand.els[ i ].el === el ){
-          console.log('found el', hand.els[i].el);
           delete hand.els[ i ];
           hand.size--;
           break;
